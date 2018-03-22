@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "microsoft yahei";
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    display: block;
+}
+
+.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    opacity: .4;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+@-webkit-keyframes tipmove {
+    0% {
+        bottom: 10px;
+        opacity: 0
+    }
+    50% {
+        bottom: 15px;
+        opacity: 1
+    }
+    100% {
+        bottom: 20px;
+        opacity: 0
+    }
+}
+
+.ani {
+    position: absolute;
+}
+
+.txt {
+    position: absolute;
+}
+
+#array {
+    position: absolute;
+    z-index: 999;
+    -webkit-animation: tipmove 1.5s infinite ease-in-out;
+}
+
+
+.section1,.section2,.section3{background-size: 100% 100% !important;width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+.goes,.text,.yincang{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
+
+/*====== section1 ======*/
+.section1{background: url(../images/bg.jpg) left top no-repeat;z-index: 99;}
+.section1 .g1{position: absolute;width:16%;left: 50%;margin-left: -5%;bottom: 11%;z-index: 99;}
+.section1 .g2{ position: absolute;width: 10%; left: 50%; margin-left: -23%;top: 48.7%; z-index: 99;}
+.section1 .car{width:220%;position: absolute;right:12%; top: 40%;}
+.section1 .t-before{width: 24%; left: 50%;margin-left: -12%;top: 12%;position: absolute;}
+.section1 .t-before2{    width: 66%;left: 50%; margin-left: -33%;top: 18%; position: absolute;}
+
+/*====== section2 ======*/
+.section2{background: url(../images/bg2.jpg) left top no-repeat;z-index: 98}
+.section2 .t-after{width: 22%;position: absolute;left: 50%;margin-left: -11%;top: 18%;}
+.section2 .t-after2{width: 66%;position: absolute;left: 50%;margin-left: -33%;top: 23%;}
+.section2 .car-long{position: absolute;left: 14%;top: 32%;width: 260%;}
+.section2 .girl3{ position: absolute; right: -65%; bottom: -11%; width: 72%;}
+
+
+/*====== section3 ======*/
+.section3{background: url(../images/bg3.jpg) left top no-repeat;z-index: 97}
+.section3 .t3-1{width:54%;margin-top:60%;left: 50%;margin-left: -27%;}
+.section3 .t3-2{width:68%;margin-top:68%;left: 50%;margin-left: -34%;}
+.section3 .t3-3{width:64%;margin-top:76%;left: 50%;margin-left: -32%;}
+.section3 .t3-4{width:54%;margin-top:84%;left: 50%;margin-left: -27%;}
+.section3 .home{position: absolute;left: 16%;bottom: 9%;width: 22%;z-index: 9999;}
+.section3 .lieche{position: absolute;right: -56%; bottom: 2.5%; width: 126%;}
+.go-btn{position: absolute;left: 0%;top:0% ;width: 100%;height: 100%;}
+
+
